@@ -63,14 +63,14 @@ node tools/server.js 8788
 ## 修改代码并重新构建
 
 游戏真源是一个 **136 MB 的单文件 HTML**（含内嵌模型与视频），不在本仓库里（超过 GitHub 单文件限制）。
-它放在 Releases 里作为附件：**`geshihua_v21_原始基线备份.html`**（即打所有补丁之前的干净版本）。
+它放在 Releases 里作为附件：**`geshihua_v21_original_base.html`**（即打所有补丁之前的干净版本）。
 
 ```bash
 # 1) 下载基线（或从项目所有者处获取同名文件）
-#    Releases → v1.0-base → geshihua_v21_原始基线备份.html
+#    Releases → v1.0-base → geshihua_v21_original_base.html
 
 # 2) 指定路径（Linux 示例；Windows 下不设则用默认路径）
-export GESHIHUA_BAK=/path/to/geshihua_v21_原始基线备份.html
+export GESHIHUA_BAK=/path/to/geshihua_v21_original_base.html
 export GESHIHUA_SRC=/path/to/geshihua_v21_手机横屏优化.html   # 输出，会被重新生成
 export GESHIHUA_OUT=./site
 

@@ -47,7 +47,7 @@ cd xuesheng-monishi
 | `screenshots/` | 实机截图 |
 
 **136 MB 的游戏真源不在仓库里**（超过 GitHub 单文件限制），它放在 **Releases** 里：
-`v1.0-base` → 附件 `geshihua_v21_原始基线备份.html`（打所有补丁之前的干净版本）。
+`v1.0-base` → 附件 `geshihua_v21_original_base.html`（打所有补丁之前的干净版本）。
 只有"要改代码重新构建"时才需要它；只是发布现成的 `site/` 不需要。
 
 ## 三、你的工作环境：Linux
@@ -92,7 +92,7 @@ npx wrangler pages deploy site --project-name xuesheng-monishi --branch main
 
 ```bash
 npm install                              # 仅为验证脚本装 playwright-core
-export GESHIHUA_BAK=~/geshihua_v21_原始基线备份.html
+export GESHIHUA_BAK=~/geshihua_v21_original_base.html
 export GESHIHUA_SRC=~/geshihua_v21_手机横屏优化.html
 export GESHIHUA_OUT=./site
 
