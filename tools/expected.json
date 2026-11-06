@@ -1,0 +1,26 @@
+{
+  "embedded-basketball": {
+    "bytes": 1299568,
+    "sha256": "fcf675ae08e7bcd9ceea62036545e19cc340f60176d7b4cf4ff99842c63d9d38"
+  },
+  "embedded-soccer": {
+    "bytes": 23508,
+    "sha256": "b33a6693f7ba80080cdf1ab560340a0747197000de08f9e24972e32a825c9e92"
+  },
+  "embedded-furniture": {
+    "bytes": 868148,
+    "sha256": "40058eba24bc7d08aee6fd3a0fa51d45a34c1d1c38250e944623385d914533ee"
+  },
+  "embedded-classroom": {
+    "bytes": 31207652,
+    "sha256": "4bab19fd5871f4a5ca7536d372c08f97f828dc984b160472be1600bb0b7326d6"
+  },
+  "embedded-anime": {
+    "bytes": 27611432,
+    "sha256": "74cc039ff997764fcfd98347ada9ba0996c3d90002b19467cefbf10a00841bc4"
+  },
+  "embedded-video": {
+    "bytes": 38358627,
+    "sha256": "f99c4561ffc8ef69186ace6a29df61efdd01cfb1b34c65bec9af63a8080a4477"
+  }
+}

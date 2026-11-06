@@ -1,0 +1,13 @@
+# 统一换行符：工具链里的锚点是模板字符串，必须是 LF，否则补丁会锚点不匹配
+*.js    text eol=lf
+*.cjs   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+
+# 站点产物/cache 头必须保持字节原样，禁止任何换行符转换
+site/index.html   -text
+site/_headers     -text
+site/assets/**    -text
+
+# 截图已是二进制
+*.png   binary

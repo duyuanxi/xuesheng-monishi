@@ -1,0 +1,9 @@
+{
+  "name": "geshihua-web-build",
+  "private": true,
+  "version": "1.0.0",
+  "description": "学生模拟器 在线版构建与验证工具",
+  "devDependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}
